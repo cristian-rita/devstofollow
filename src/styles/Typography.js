@@ -20,6 +20,17 @@ h2 {
     }
     font-weight: 300;
 }
+a:visited {
+    color: var(--grey);
+}
+a {
+    color: var(--grey);
+}
+
+a:hover {
+    color: var(--pink);
+    transition: color .3s;
+}
 `;
 
 export default Typography;

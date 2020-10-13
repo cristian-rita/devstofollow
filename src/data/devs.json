@@ -16,6 +16,15 @@
     "website": "https://wesbos.com/",
     "description": "I create courses that make learning things like JavaScript easy and fun 🔥",
     "technologies": ["Javascript", "React", "CSS","GraphQL", "Gatsby","NodeJS"]
+  },
+  {
+    "name": "Kent C. Dodds",
+    "country":"🇺🇸",
+    "twitter": "kentcdodds",
+    "github": "kentcdodds",
+    "website": "https://kentcdodds.com/",
+    "description": "Improving the world w/ quality software · Husband, Father, Latter-day Saint, Teacher, OSS ·",
+    "technologies": ["Javascript", "React", "Testing"]
   }
 ]
 

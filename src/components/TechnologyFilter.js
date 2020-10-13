@@ -22,8 +22,7 @@ const TagsStyles = styled.div`
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  margin: 50px 30px;
-  /* gap: 5px; */
+  margin: 50px 10px;
 
   label {
     margin-top: 5px;
@@ -57,12 +56,12 @@ const TagsStyles = styled.div`
   }
 `;
 
-const PeopleFilter = () => {
-  const [tag, setTag] = useState('');
+const PeopleFilter = ({ setCurrentTag }) => {
+  const [tag, setTag] = useState('all');
 
   const { devs } = useStaticQuery(graphql`
     query {
-      devs: allPeopleJson {
+      devs: allDevsJson {
         nodes {
           id
           name
@@ -84,6 +83,23 @@ const PeopleFilter = () => {
   return (
     <div>
       <TagsStyles>
+        <label
+          key="all"
+          htmlFor="all"
+          className={tag === 'all' ? 'active-tag' : ''}
+        >
+          <input
+            id="all"
+            name="tag"
+            type="radio"
+            onClick={() => {
+              setTag('all');
+              setCurrentTag('all');
+            }}
+          />
+          all
+          <span>{devs.nodes.length}</span>
+        </label>
         {technologiesWithCount.map((technology) => (
           <label
             key={technology.name}
@@ -94,7 +110,10 @@ const PeopleFilter = () => {
               id={`${technology.name}`}
               name="tag"
               type="radio"
-              onClick={(e) => setTag(e.target.id)}
+              onClick={(e) => {
+                setTag(e.target.id);
+                setCurrentTag(e.target.id);
+              }}
             />
             {technology.name}
             <span>{technology.count}</span>

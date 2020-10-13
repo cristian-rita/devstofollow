@@ -1,7 +1,8 @@
 import { Link } from 'gatsby';
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-import PeopleFilter from '../components/PeopleFilter';
+import TechnologyFilter from '../components/TechnologyFilter';
+import PersonList from '../components/PersonList';
 
 const IndexPageStyles = styled.div`
   text-align: center;
@@ -12,16 +13,20 @@ const IndexPageStyles = styled.div`
     margin-top: 40px;
   }
 `;
-const IndexPage = () => (
-  <IndexPageStyles>
-    <h1>
-      <Link to="/">
-        devswho.<span>rocks</span>
-      </Link>
-    </h1>
-    <h2>A list of the best developers to learn programming from.</h2>
-    <PeopleFilter />
-  </IndexPageStyles>
-);
+const IndexPage = () => {
+  const [currentTag, setCurrentTag] = useState('all');
+  return (
+    <IndexPageStyles>
+      <h1>
+        <Link to="/">
+          devswho.<span>rocks</span>
+        </Link>
+      </h1>
+      <h2>A list of the best developers to learn programming from.</h2>
+      <TechnologyFilter setCurrentTag={setCurrentTag} />
+      <PersonList currentTag={currentTag} />
+    </IndexPageStyles>
+  );
+};
 
 export default IndexPage;
