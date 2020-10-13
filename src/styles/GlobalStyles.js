@@ -17,6 +17,10 @@ const GlobalStyles = createGlobalStyle`
         color: var(--grey);
     }
 
+    a:visited {
+        color: var(--grey);
+    }
+    a {text-decoration:none;}
 `;
 
 export default GlobalStyles;
