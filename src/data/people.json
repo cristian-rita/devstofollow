@@ -1,0 +1,21 @@
+[
+    {
+    "name": "Cristian Riță",
+    "country":"🇷🇴",
+    "twitter": "@cristianrita_",
+    "github": "cristian-rita",
+    "website": "https://cristianrita.com",
+    "description": "Fullstack developer passionate about React",
+    "technologies": ["Javascript", "React", "React Native", "Gatsby", "NodeJS"]
+  },
+  {
+    "name": "Wes Bos",
+    "country":"🇨🇦",
+    "twitter": "wesbos",
+    "github": "wesbos",
+    "website": "https://wesbos.com/",
+    "description": "I create courses that make learning things like JavaScript easy and fun 🔥",
+    "technologies": ["Javascript", "React", "CSS","GraphQL", "Gatsby","NodeJS"]
+  }
+]
+

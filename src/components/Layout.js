@@ -10,11 +10,7 @@ const PageStyles = styled.main`
   width: 96%;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 7rem;
-
-  @media (max-width: 800px) {
-    margin-top: 4rem;
-  }
+  margin-top: 4rem;
 `;
 const Layout = ({ children }) => (
   <>

@@ -4,9 +4,10 @@ const GlobalStyles = createGlobalStyle`
 
     :root {
         --blue: #202040;
-        --pink: #ff6363;
-        --yellow: #ffbd69;
+        --pink: #e94560;
+        --yellow: #f0a500;
         --grey: #f4f4f4;
+     
     }
     html {
         font-size:10px;

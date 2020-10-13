@@ -9,7 +9,7 @@ html {
 h1 {
     font-size: 6.2rem;
     @media(max-width:600px) {
-        font-size:3.5rem;
+        font-size:4.2rem;
     }
 }
 
