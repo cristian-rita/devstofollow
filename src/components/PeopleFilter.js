@@ -23,9 +23,11 @@ const TagsStyles = styled.div`
   flex-wrap: wrap;
   list-style-type: none;
   margin: 50px 30px;
-  gap: 5px;
+  /* gap: 5px; */
 
   label {
+    margin-top: 5px;
+    margin-right: 5px;
     background-color: var(--pink);
     padding: 5px;
     border-radius: 2px;
