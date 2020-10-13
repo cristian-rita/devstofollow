@@ -8,7 +8,7 @@ const IndexPageStyles = styled.div`
     color: var(--yellow);
   }
   h2 {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 `;
 const IndexPage = () => (

@@ -7,7 +7,7 @@ html {
     -webkit-font-smoothing: antialiased;
     }
 h1 {
-    font-size: 6rem;
+    font-size: 6.2rem;
     @media(max-width:600px) {
         font-size:3.5rem;
     }
