@@ -6,6 +6,7 @@ import Typography from '../styles/Typography';
 
 const PageStyles = styled.main`
   display: flex;
+  flex-wrap: wrap;
   width: 96%;
   justify-content: center;
   margin: 0 auto;

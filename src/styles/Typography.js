@@ -7,11 +7,17 @@ html {
     -webkit-font-smoothing: antialiased;
     }
 h1 {
-    font-size:6rem;
+    font-size: 6rem;
+    @media(max-width:600px) {
+        font-size:3.5rem;
+    }
 }
 
 h2 {
     font-size: 2.4rem;
+    @media(max-width:600px) {
+        font-size:1.8rem;
+    }
     font-weight: 300;
 }
 `;
