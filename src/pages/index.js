@@ -23,11 +23,11 @@ const IndexPage = () => {
   const [currentTag, setCurrentTag] = useState('all');
   return (
     <>
-      <SEO title="Devs Who Rocks" />
+      <SEO title="Devs to Follow" />
       <IndexPageStyles>
         <h1>
           <Link to="/">
-            devswho.<span>rocks</span>
+            devstofollow.<span>com</span>
           </Link>
         </h1>
         <h2>A list of the best developers to learn programming from.</h2>

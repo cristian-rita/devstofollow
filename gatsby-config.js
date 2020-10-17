@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'devswhorocks',
-    siteUrl: 'https://devswho.rocks',
+    title: 'devstofollow',
+    siteUrl: 'https://devstofollow.com',
     description: 'A list of the best developers to learn programming from.',
   },
   plugins: [
