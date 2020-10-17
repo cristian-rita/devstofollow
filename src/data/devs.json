@@ -25,6 +25,90 @@
     "website": "https://kentcdodds.com/",
     "description": "Improving the world w/ quality software · Husband, Father, Latter-day Saint, Teacher, OSS ·",
     "technologies": ["Javascript", "React", "Testing"]
+  },
+  {
+    "name": "Gor Nishanov",
+    "country":"🇺🇸",
+    "twitter": "GorNishanov",
+    "github": "GorNishanov",
+    "website": null,
+    "description": "Software Developer @ Microsoft; WG21 (ISO C++ Committee) Member; Born in USSR",
+    "technologies": ["C++"]
+  },
+  {
+    "name": "Jason Turner",
+    "country":"🇺🇸",
+    "twitter": "lefticus",
+    "github": "lefticus",
+    "website": "https://emptycrate.com",
+    "description": "Host of C++ Weekly YouTube series, co-host of CppCast C++ podcast.",
+    "technologies": ["C++"]
+  },
+  {
+    "name": "Jonathan Boccara",
+    "country":"🇺🇸",
+    "twitter": "JoBoccara",
+    "github": "joboccara",
+    "website": "https://emptycrate.com",
+    "description": "Passionate C++ developer focusing on code expressiveness. Fan of vim. Check out my blog http://fluentcpp.com to read more about expressive #cpp!",
+    "technologies": ["C++"]
+  },
+  {
+    "name": "Rob Irving",
+    "country":"🇺🇸",
+    "twitter": "robwirving",
+    "github": "robwirving",
+    "website": "https://robwirving.com/",
+    "description": "Developer Technologies MVP. Host of @cppcast. Senior Software Engineer @par_government working on @teamawarekit.",
+    "technologies": ["C++", "C#", "Ruby"]
+  },
+  {
+    "name": "Anthony Williams",
+    "country":"🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "twitter": "a_williams",
+    "github": "anthonywilliams",
+    "website": "https://www.justsoftwaresolutions.co.uk/blog/",
+    "description": "Author of C++ Concurrency in Action. Member of BSI C++ Standards Panel. Director of Just Software Solutions Ltd.",
+    "technologies": ["C++"]
+  },
+  {
+    "name": "Josh Long",
+    "country":"🇺🇸",
+    "twitter": "starbuxman",
+    "github": "joshlong",
+    "website": "https://joshlong.com",
+    "description": "Josh is the Spring Developer Advocate at VMware, an open-source hacker, book/video author and speaker",
+    "technologies": ["Java", "Spring"]
+  },
+  {
+    "name": "Arun Gupta",
+    "country":"🇺🇸",
+    "twitter": "arungupta",
+    "github": "arun-gupta",
+    "website": null,
+    "description": "Java Champion, Docker Captain, JavaOne Rockstar, JUG Leader, Minecraft Modder, NetBeans Dream Teamer, Devoxx4Kids, Works at Apple",
+    "technologies": ["Java", "Docker"]
+  },
+  {
+    "name": "Markus Eisele",
+    "country":"🇩🇪",
+    "twitter": "myfear",
+    "github": "myfear",
+    "website": "https://blog.eisele.net/",
+    "description": "Java Champion, Docker Captain, JavaOne Rockstar, JUG Leader, Minecraft Modder, NetBeans Dream Teamer, Devoxx4Kids, Works at Apple",
+    "technologies": ["Java", "JavaEE"]
+  },
+  {
+    "name": "Joshua Bloch",
+    "country":"🇺🇸",
+    "twitter": "joshbloch",
+    "github": "jbloch",
+    "website": "https://joshbloch.com",
+    "description": "Effective Java author, API Designer, CMU Prof, Swell guy",
+    "technologies": ["Java"]
   }
+
 ]
+
+
 

@@ -44,6 +44,14 @@ const SocialStyles = styled.div`
   span:first-child {
     border-left: none;
   }
+
+  .disabled {
+    cursor: initial;
+
+    &: hover {
+      color: var(--grey);
+    }
+  }
 `;
 
 const BioStyles = styled.div`
@@ -94,6 +102,8 @@ const Person = ({ person }) => (
         <a
           href={`https://twitter.com/${person.twitter}`}
           aria-label="Twitter account"
+          target="blank"
+          className={person.twitter ? '' : 'disabled'}
         >
           <FontAwesomeIcon className="socialIcon" icon={faTwitter} />
         </a>
@@ -102,12 +112,19 @@ const Person = ({ person }) => (
         <a
           href={`https://github.com/${person.github}`}
           aria-label="Github account"
+          target="blank"
+          className={person.github ? '' : 'disabled'}
         >
           <FontAwesomeIcon className="socialIcon" icon={faGithub} />
         </a>
       </span>
       <span>
-        <a href={person.website} aria-label="Personal website">
+        <a
+          href={person.website}
+          aria-label="Personal website"
+          target="blank"
+          className={person.website ? '' : 'disabled'}
+        >
           <FontAwesomeIcon className="socialIcon" icon={faGlobe} />
         </a>
       </span>

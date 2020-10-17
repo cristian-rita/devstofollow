@@ -1,4 +1,9 @@
 module.exports = {
+  siteMetadata: {
+    title: 'devswhorocks',
+    siteUrl: 'https://devswho.rocks',
+    description: 'A list of the best developers to learn programming from.',
+  },
   plugins: [
     'gatsby-plugin-styled-components',
     `gatsby-transformer-json`,
