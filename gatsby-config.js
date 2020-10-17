@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'devstofollow',
+    title: 'Devs To Follow',
     siteUrl: 'https://devstofollow.com',
     description: 'A list of the best developers to learn programming from.',
   },
