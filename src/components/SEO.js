@@ -71,6 +71,7 @@ const SEO = ({ children, location, description, title, image }) => {
         href="/favicon-16x16.png"
       />
       <link rel="manifest" href="/manifest.json" />
+      <meta name="msvalidate.01" content="DB7B5A0A35F783F3283702E6CEA387B4" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
       <meta name="theme-color" content="#ffffff" />
