@@ -1,13 +1,4 @@
 [
-    {
-    "name": "Cristian Riță",
-    "country":"🇷🇴",
-    "twitter": "@cristianrita_",
-    "github": "cristian-rita",
-    "website": "https://cristianrita.com",
-    "description": "Fullstack developer passionate about React",
-    "technologies": ["Javascript", "React", "React Native", "Gatsby", "NodeJS"]
-  },
   {
     "name": "Wes Bos",
     "country":"🇨🇦",
